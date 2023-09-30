@@ -1,0 +1,113 @@
+/* Reset default margin and padding for some elements */
+body, h1, p, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color and text alignment for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #686666;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Style the form container */
+  .form {
+    margin: 0 auto; /* Center the form horizontally */
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left; /* Left-align form contents */
+  }
+  
+  /* Style form labels */
+  label {
+    flex-basis: calc(50% - 10px); /* 50% width with spacing */
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style form input fields */
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    flex-basis: calc(50% - 10px); /* 50% width with spacing */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style form textarea */
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Style the submit button */
+  #submit {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #686666;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #end {
+    text-align: center;
+  }
+  

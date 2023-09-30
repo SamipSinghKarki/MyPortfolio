@@ -1,0 +1,124 @@
+/* Reset default margin and padding for some elements */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color and text alignment for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color:#686666;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  main {
+    display: flex; /* Use flexbox to create a two-column layout */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    text-align: left; /* Align text to the left within the columns */
+  }
+  
+  /* Style the profile picture column */
+  .profile-picture {
+    flex: 1; /* Take up one-third of the available space */
+    padding: 20px;
+  }
+  
+  .profile-picture img {
+    max-width: 450px; /* Ensure the image doesn't exceed its container */
+  }
+  
+  /* Style the profile information column */
+  .profile-info {
+    flex: 2; /* Take up two-thirds of the available space */
+    padding: 20px;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Style the introductory text */
+  #intro {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style the resume link */
+  #resume {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #686666;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #end {
+    text-align: center;
+  }
+  .resume-button {
+    margin-top: 20px;
+  }
+  
+  .resume-button a {
+    display: inline-block;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .resume-button a .button-text {
+    margin-right: 10px;
+  }
+  
+  .resume-button a .download-icon {
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  
+  .resume-button a:hover {
+    background-color: #0056b3;
+  }

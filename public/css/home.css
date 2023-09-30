@@ -1,0 +1,81 @@
+/* Reset default margin and padding for some elements */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color and text alignment for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Style the header section */
+header {
+    background-color: #686666;
+    color: white;
+    padding: 10px;
+}
+
+#i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Style the main content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#mail {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#mail:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style the footer */
+footer {
+    background-color:  #686666;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#end {
+    text-align: center;
+}

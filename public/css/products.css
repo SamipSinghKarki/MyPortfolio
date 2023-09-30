@@ -1,0 +1,94 @@
+/* Reset default margin and padding for some elements */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the background color and text alignment for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  /* Style the header section */
+  header {
+    background-color:  #686666;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  /* Style the main heading */
+  #heading {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Style project containers */
+  .project1,
+  .project2,
+  .project3 {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Style project images */
+  .project1 img,
+  .project2 img,
+  .project3 img {
+    max-width: 500px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style project titles */
+  .project1 h2,
+  .project2 h2,
+  .project3 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style project descriptions */
+  #descproject1,
+  #descproject2,
+  #descproject3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color:  #686666;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #end {
+    text-align: center;
+  }
+  
